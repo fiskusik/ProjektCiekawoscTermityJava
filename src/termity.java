@@ -21,7 +21,7 @@ public class termity {
         przedzial_koncowy1 = Double.parseDouble(br1a.readLine());
         System.out.println("Liczba początkowa przedziału w pierwszej grupie wynosi: " + przedzial_poczatkowy1 + " (kontrola)");
         System.out.println("Liczba końcowa przedziału w drugiej grupie wynosi: " + przedzial_koncowy1 + " (kontrola)");
-        System.out.println("Szanowny Kolego / Szanowan Koleżanko: program losuje w tym mommencie liczbę osobników z przedziału od: " + przedzial_poczatkowy1 + "do: " + przedzial_koncowy1 + " .");
+        System.out.println("Szanowny Kolego / Szanowna Koleżanko: program losuje w tym mommencie liczbę osobników z przedziału od: " + przedzial_poczatkowy1 + "do: " + przedzial_koncowy1 + " .");
         System.out.println("Wpisz jakąś liczbę i kliknij ");
         //Informacja na temat losowania ilości pierwsszej grupy termitów
         double losowanie_ilosci_1noga, zgadnięcie_1ekipa;
@@ -51,7 +51,7 @@ public class termity {
         przedzial_koncowy2 = Double.parseDouble(br2a.readLine());
         System.out.println("Liczba początkowa przedziału w pierwszej grupie wynosi: " + przedzial_poczatkowy2 + " (kontrola)");
         System.out.println("Liczba końcowa przedziału w drugiej grupie wynosi: " + przedzial_koncowy2 + " (kontrola)");
-        System.out.println("Szanowny Kolego / Szanowan Koleżanko: program losuje w tym mommencie liczbę osobników z przedziału od: " + przedzial_poczatkowy2 + "do: " + przedzial_koncowy2 + " .");
+        System.out.println("Szanowny Kolego / Szanowna Koleżanko: program losuje w tym mommencie liczbę osobników z przedziału od: " + przedzial_poczatkowy2 + "do: " + przedzial_koncowy2 + " .");
         System.out.println("Wpisz jakąś liczbę i kliknij ");
         //Informacja na temat losowania ilości pierwsszej grupy termitów
         double losowanie_ilosci_2noga, zgadnięcie_2ekipa;
@@ -65,9 +65,71 @@ public class termity {
         }
         else
         {
-            System.out.println("Nie trafiony! Wylosowana liczba pierwszej ekipy zgłodniałych termitów wynosi: ");
+            System.out.println("Nie trafiony! Wylosowana liczba drugiej ekipy zgłodniałych termitów wynosi: ");
             System.out.println("Wielkość grupy: " + (int) losowanie_ilosci_2noga + ".");
         }
+
+        //Trzecia "noga stołu" znajdujcego się w kuchni
+        System.out.println("Informacja:");
+        System.out.println("Analiza: Ile jest osobników w danej grupie,\nktóra podąża do stołu, aby zjeść drugą nogę?\n(zgadywanka)");
+        //Informacja na temat przedziału ilości pierwsszej grupy termitów
+        double przedzial_poczatkowy3, przedzial_koncowy3;
+        BufferedReader br3a = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("Podaj liczbę poczatkową przedziału ilości termitów znajdującychb się w pierwszej ekipie!");
+        przedzial_poczatkowy3 = Double.parseDouble(br3a.readLine());
+        System.out.println("Podaj liczbę końcowa przedziału ilości termitów znajdującychb się w pierwszej ekipie!");
+        przedzial_koncowy3 = Double.parseDouble(br3a.readLine());
+        System.out.println("Liczba początkowa przedziału w pierwszej grupie wynosi: " + przedzial_poczatkowy3 + " (kontrola)");
+        System.out.println("Liczba końcowa przedziału w drugiej grupie wynosi: " + przedzial_koncowy3 + " (kontrola)");
+        System.out.println("Szanowny Kolego / Szanowna Koleżanko: program losuje w tym mommencie liczbę osobników z przedziału od: " + przedzial_poczatkowy3 + "do: " + przedzial_koncowy3 + " .");
+        System.out.println("Wpisz jakąś liczbę i kliknij ");
+        //Informacja na temat losowania ilości pierwsszej grupy termitów
+        double losowanie_ilosci_3noga, zgadnięcie_3ekipa;
+        BufferedReader br3b = new BufferedReader(new InputStreamReader(System.in));
+        Random r3 = new Random();
+        losowanie_ilosci_3noga = Math.round(przedzial_koncowy3*(r3.nextDouble()));
+        zgadnięcie_3ekipa = Double.parseDouble((br3b.readLine()));
+        if (zgadnięcie_3ekipa == losowanie_ilosci_3noga)
+        {
+            System.out.println("Jesteś Wielki! Uważaj na Termity");
+        }
+        else
+        {
+            System.out.println("Nie trafiony! Wylosowana liczba trzeciej ekipy zgłodniałych termitów wynosi: ");
+            System.out.println("Wielkość grupy: " + (int) losowanie_ilosci_3noga + ".");
+        }
+
+        //Czwarta "noga stołu" znajdujcego się w kuchni
+        System.out.println("Informacja:");
+        System.out.println("Analiza: Ile jest osobników w danej grupie,\nktóra podąża do stołu, aby zjeść drugą nogę?\n(zgadywanka)");
+        //Informacja na temat przedziału ilości pierwsszej grupy termitów
+        double przedzial_poczatkowy4, przedzial_koncowy4;
+        BufferedReader br4a = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("Podaj liczbę poczatkową przedziału ilości termitów znajdującychb się w pierwszej ekipie!");
+        przedzial_poczatkowy4 = Double.parseDouble(br4a.readLine());
+        System.out.println("Podaj liczbę końcowa przedziału ilości termitów znajdującychb się w pierwszej ekipie!");
+        przedzial_koncowy4 = Double.parseDouble(br3a.readLine());
+        System.out.println("Liczba początkowa przedziału w pierwszej grupie wynosi: " + przedzial_poczatkowy4 + " (kontrola)");
+        System.out.println("Liczba końcowa przedziału w drugiej grupie wynosi: " + przedzial_koncowy4 + " (kontrola)");
+        System.out.println("Szanowny Kolego / Szanowna Koleżanko: program losuje w tym mommencie liczbę osobników z przedziału od: " + przedzial_poczatkowy4 + "do: " + przedzial_koncowy4 + " .");
+        System.out.println("Wpisz jakąś liczbę i kliknij ");
+        //Informacja na temat losowania ilości pierwsszej grupy termitów
+        double losowanie_ilosci_4noga, zgadnięcie_4ekipa;
+        BufferedReader br4b = new BufferedReader(new InputStreamReader(System.in));
+        Random r4 = new Random();
+        losowanie_ilosci_4noga = Math.round(przedzial_koncowy4*(r4.nextDouble()));
+        zgadnięcie_4ekipa = Double.parseDouble((br4b.readLine()));
+        if (zgadnięcie_4ekipa == losowanie_ilosci_4noga)
+        {
+            System.out.println("Jesteś Wielki! Uważaj na Termity");
+        }
+        else
+        {
+            System.out.println("Nie trafiony! Wylosowana liczba czwartej ekipy zgłodniałych termitów wynosi: ");
+            System.out.println("Wielkość grupy: " + (int) losowanie_ilosci_4noga + ".");
+        }
+
+
     }
 }
 
