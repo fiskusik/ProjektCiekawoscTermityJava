@@ -137,7 +137,20 @@ public class termity {
             System.out.println("Wielkość grupy: " + (int) losowanie_ilosci_4noga + ".");
         }
         System.out.println("========================================================================");
-        System.out.println("Obliczenia statystyczne i ciekawe wnioski na przyszłość");
+        System.out.println("Obliczenia statystyczne i ciekawe wnioski na przyszłość.");
+        System.out.println("Zestawienie zbiorcze *ataku na stół znajdujący się w kuchnni*.");
+        System.out.println("Liczba poczatkowa - pierwsza grupa: " + przedzial_poczatkowy1 + ".");
+        System.out.println("Liczba końcowa - pierwsza grupa: " + przedzial_koncowy1 + ".");
+        System.out.println("Liczba poczatkowa - druga grupa: " + przedzial_poczatkowy2 + ".");
+        System.out.println("Liczba końcowa - druga grupa: " + przedzial_koncowy2 + ".");
+        System.out.println("Liczba poczatkowa - trzecia grupa: " + przedzial_poczatkowy3 + ".");
+        System.out.println("Liczba końcowa - trzecia grupa: " + przedzial_koncowy3 + ".");
+        System.out.println("Liczba poczatkowa - czwarta grupa: " + przedzial_poczatkowy4 + ".");
+        System.out.println("Liczba końcowa - czwarta grupa: " + przedzial_koncowy4 + ".");
+        System.out.println("Liczba losowa dla pierwszej grupy: " + losowanie_ilosci_1noga + ".");
+        System.out.println("Liczba losowa dla drugiej grupy: " + losowanie_ilosci_1noga + ".");
+        System.out.println("Liczba losowa dla trzeciej grupy: " + losowanie_ilosci_1noga + ".");
+        System.out.println("Liczba losowa dla czwartej grupy: " + losowanie_ilosci_1noga + ".");
     }
 }
 
