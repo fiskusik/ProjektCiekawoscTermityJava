@@ -87,3 +87,7 @@ suma_termitów = value1 + value2 + value3 + value4
 print(f'Informacja na temat całkowitej liczby termitów, które podążają na drugie śniadanie', suma_termitów, f'.')
 print(f'**********************************************')
 
+----------------------------------------------
+Arhiwum komentarzy:
+Musiałem założyć plik: plikTestownny.java, w którym będzie robiona analiza kodu przed montażem w pliku docelowym.
+
