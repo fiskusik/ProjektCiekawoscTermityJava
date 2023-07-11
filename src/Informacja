@@ -3,7 +3,7 @@ Temat: Termity w Javie z wykorzystaniem GIT. (Praca z uśmiechem zaliczenie prze
 Założenia:
 
 Mamy stół, który jest drewniany.
-Do stołu podąża ekipa zgłodniałych termitów, którzy mają określony termin drugiego śniadania.
+Do stołu podąża ekipa zgłodniałych termitów, które mają określony termin drugiego śniadania.
 Cel: zjedzenie pierwszej nogi.
 W tym samym czasie podąża tzw. konkurencja, która też jest głodna.
 Cel: zjedzenie drugiej nogi.
@@ -15,6 +15,7 @@ Pytania, które należy rozważyć (przykłady):
 3) Jaka jest waga jednego termita?
 4) Jaka jest waga całego zespołu podążającego do stołu?
 5) (?) Czy konkurencja podzieli się z drugim śniadanie?
+6) Oraz inne pytania, które powstaną w póżniejszym terminie.
 
 ---------------------------------------------------------
 from random import randint, random
