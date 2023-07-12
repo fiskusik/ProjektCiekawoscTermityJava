@@ -136,7 +136,6 @@ public class termity {
             System.out.println("Nie trafiony! Wylosowana liczba czwartej ekipy zgłodniałych termitów wynosi: ");
             System.out.println("Wielkość grupy: " + (int) losowanie_ilosci_4noga + ".");
         }
-        //Obliczenia statystyczne
         System.out.println("========================================================================");
         System.out.println("Obliczenia statystyczne i ciekawe wnioski na przyszłość.");
         System.out.println("Zestawienie zbiorcze *ataku na stół znajdujący się w kuchnni*.");
@@ -149,39 +148,9 @@ public class termity {
         System.out.println("Liczba poczatkowa - czwarta grupa: " + przedzial_poczatkowy4 + ".");
         System.out.println("Liczba końcowa - czwarta grupa: " + przedzial_koncowy4 + ".");
         System.out.println("Liczba losowa dla pierwszej grupy: " + losowanie_ilosci_1noga + ".");
-        System.out.println("Liczba losowa dla drugiej grupy: " + losowanie_ilosci_2noga + ".");
-        System.out.println("Liczba losowa dla trzeciej grupy: " + losowanie_ilosci_3noga + ".");
-        System.out.println("Liczba losowa dla czwartej grupy: " + losowanie_ilosci_4noga + ".");
-        System.out.println("Obliczenia dla średniej arytmetycznej liczb wylosowanych system.");
-        double suma_podawana, suma_wylosowana;
-        suma_podawana = (zgadnięcie_1ekipa + zgadnięcie_2ekipa + zgadnięcie_3ekipa + zgadnięcie_4ekipa) / 4;
-        System.out.println("Wynik średniej arytmetycznej: " + suma_podawana + " (człowiek)");
-        suma_wylosowana = (losowanie_ilosci_1noga + losowanie_ilosci_2noga + losowanie_ilosci_3noga + losowanie_ilosci_4noga) / 4;
-        System.out.println("Wynik średniej arytmetycznej: " + suma_wylosowana + " (system)");
-        //Obliczenia max, min
-        double arr1[] = {zgadnięcie_1ekipa, zgadnięcie_2ekipa, zgadnięcie_3ekipa, zgadnięcie_4ekipa};
-        int maxValue1 = Integer.MIN_VALUE;
-        for(int i = 0; i < arr1.length; ++i){
-            maxValue1 = (int) Math.max(maxValue1, arr1[i]);
-        }
-        System.out.println("Wartość max -> człowiek wynosi: " + maxValue1);
-        int minValue1 = Integer.MAX_VALUE;
-        for(int i = 0; i < arr1.length; ++i){
-            minValue1 = (int) Math.min(minValue1, arr1[i]);
-        }
-        System.out.println("Wartość min -> człowiek wynosi: " + minValue1);
-
-        double arr2[] = {losowanie_ilosci_1noga, losowanie_ilosci_2noga, losowanie_ilosci_3noga, losowanie_ilosci_4noga};
-        int maxValue2 = Integer.MIN_VALUE;
-        for(int i = 0; i < arr2.length; ++i){
-            maxValue2 = (int) Math.max(maxValue2, arr2[i]);
-        }
-        System.out.println("Wartość max -> komputer wynosi: " + maxValue2);
-        int minValue2 = Integer.MAX_VALUE;
-        for(int i = 0; i < arr2.length; ++i){
-            minValue2 = (int) Math.min(minValue2, arr2[i]);
-        }
-        System.out.println("Wartość min -> komputer wynosi: " + minValue2);
+        System.out.println("Liczba losowa dla drugiej grupy: " + losowanie_ilosci_1noga + ".");
+        System.out.println("Liczba losowa dla trzeciej grupy: " + losowanie_ilosci_1noga + ".");
+        System.out.println("Liczba losowa dla czwartej grupy: " + losowanie_ilosci_1noga + ".");
     }
 }
 
